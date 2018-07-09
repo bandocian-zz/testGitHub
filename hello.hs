@@ -1,7 +1,8 @@
 module Hello where
 
+-- OBSOLETE
 run :: IO ()
-run = putStrLn "Hello, World!"
+run = main
 
 main :: IO ()
-main = run
+main = putStrLn "Hello, World!"
